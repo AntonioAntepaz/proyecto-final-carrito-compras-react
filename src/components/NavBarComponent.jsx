@@ -15,9 +15,7 @@ export const NavBarComponent = () => {
 <div className="container-fluid">
 <NavLink to='/' className="navbar-brand">HiperCompras</NavLink>
 
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
+   
   
   <div className="collapse navbar-collapse" id="navbarNav">
     <div className="navbar-nav"> 
@@ -41,3 +39,7 @@ export const NavBarComponent = () => {
   )
 }
 
+
+//<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    //<span className="navbar-toggler-icon"></span>
+ // </button>//
